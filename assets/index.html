@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>News Homepage</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                <div class="header_nav">
+                    <img 
+                        src="/assets/images/logo.svg" 
+                        alt="logo" 
+                        class="header_logo"
+                        width="95px"
+                        height="58.5px">
+                    <nav>
+                        <input type="checkbox" id="header_check">
+                        <ul class="header_navbar">
+                            <li><a href="#" class="header_page">Home</a></li>
+                            <li><a href="#" class="header_page">New</a></li>
+                            <li><a href="#" class="header_page">Popular</a></li>
+                            <li><a href="#" class="header_page">Trending</a></li>
+                            <li><a href="#" class="header_page">Categories</a></li>
+                        </ul>
+                        <label for="header_check" class="header_checkbtn">
+                            <img
+                                src="/assets/images/icon-menu.svg"
+                                alt="menu_bar"
+                                width="85px"
+                                height="36.125px">
+                        </label>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="wrapper">
+                <div class="hero_and_new">
+                    <div class="hero">
+                        <picture>
+                            <source media="(min-width: 62.5em)" srcset="/assets/images/image-web-3-desktop.jpg">
+                            <img
+                                class="hero_image"
+                                src="/assets/images/image-web-3-mobile.jpg"
+                                alt="colorful shapes"
+                                width="343"
+                                height="300">
+                        </picture>
+                        <div class="hero_hdline_and_desc">
+                            <h1 class="hero_headline">
+                                The Bright Future of Web 3.0?
+                            </h1>
+                            <section>
+                                <p class="hero_description">
+                                    We dive into the next evolution of the web that claims
+                                    to put the power of the platforms back into the hands
+                                    of the people. But is it really fulfilling its promise?
+                                </p>
+                                <a class="hero_button">Read More</a>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <h2 class="new_label">New</h2>
+                        <div class="new_articles">
+                            <div class="new_article_one">
+                                <a 
+                                    class="article_title"
+                                    href="https://www.carwow.co.uk/blog/hydrogen-vs-electric-cars#gref"
+                                    target="_blank">
+                                    Hydrogen VS Electric Cars
+                                </a>
+                                <p class="article_description">
+                                    Will hydrogen-fueled cars ever catch up to EVs?
+                                </p>
+                            </div>
+                            <div class="new_article_two">
+                                <a 
+                                    class="article_title"
+                                    href="https://medium.com/data-driven-fiction/the-downsides-of-ai-art-or-are-there-1f11c5c7fc2"
+                                    target="_blank">
+                                    The Downsides of AI Artistry
+                                </a>
+                                <p class="article_description">
+                                    What are the possible adverse effects of 
+                                    on-demand AI image generation?
+                                </p>
+                            </div>
+                            <div class="new_article_three">
+                                <a 
+                                    class="article_title"
+                                    href="https://hbr.org/2022/10/startups-dont-pin-your-hopes-on-vc-dry-powder"
+                                    target="_blank">
+                                    Is VC Funding Drying Up?
+                                </a>
+                                <p class="article_description">
+                                    Private funding by VC firms is down 50% YOY. 
+                                    We take a look at what that means.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular">
+                    <div class="popular_grid">
+                        <div class="popular_section_grid">
+                            <img 
+                                class="popular_image"
+                                src="/assets/images/image-retro-pcs.jpg"
+                                width="100px"
+                                height="64px">
+                            <div class="popular_text">
+                                <h1 class="popular_number">
+                                    01
+                                </h1>
+                                <h2 class="popular_title">
+                                    Reviving Retro PCs
+                                </h2>
+                                <p class="popular_description">
+                                    What happens when old PCs are given modern upgrades?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="popular_section_grid">
+                            <img 
+                                class="popular_image"
+                                src="/assets/images/image-top-laptops.jpg"
+                                width="100px"
+                                height="64px">
+                            <div class="popular_text">
+                                <h1 class="popular_number">
+                                    02
+                                </h1>
+                                <h2 class="popular_title">
+                                    Top 10 Laptops of 2022
+                                </h2>
+                                <p class="popular_description">
+                                    Our best picks for various needs and budgets.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="popular_section_grid">
+                            <img 
+                                class="popular_image"
+                                src="/assets/images/image-gaming-growth.jpg"
+                                width="100px"
+                                height="64px">
+                            <div class="popular_text">
+                                <h1 class="popular_number">
+                                    03
+                                </h1>
+                                <h2 class="popular_title">
+                                    The Growth of Gaming
+                                </h2>
+                                <p class="popular_description">
+                                    How the pandemic has sparked fresh opportunities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
